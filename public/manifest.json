@@ -1,0 +1,55 @@
+{
+  "id": "/",
+  "name": "ForgeStudio - Self-Hosted AI Dev & PaaS",
+  "short_name": "ForgeStudio",
+  "description": "Self-hosted AI development studio and PaaS for Web, Mobile, and Desktop applications.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["developer-tools", "productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Open Studio Workspace",
+      "short_name": "Workspace",
+      "description": "Jump straight into code editor and live preview",
+      "url": "/?view=workspace",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "AI App Builder",
+      "short_name": "AI Builder",
+      "description": "Create a new app with the autonomous multi-agent pipeline",
+      "url": "/?view=ai-builder",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

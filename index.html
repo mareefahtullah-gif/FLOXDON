@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Floxdon Studio" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <title>Floxdon Studio - The Complete Software Ecosystem</title>
+    <meta name="description" content="The complete software ecosystem: Developer Studio for building real native apps, public Floxdon Store for publishing and distribution, Floxdon Account unified authentication, autonomous Floxdon AI agents, and Floxdon Cloud PaaS." />
+    <meta property="og:title" content="Floxdon Studio - The Complete Software Ecosystem" />
+    <meta property="og:description" content="The complete software ecosystem: Developer Studio for building real native apps, public Floxdon Store for publishing and distribution, Floxdon Account unified authentication, autonomous Floxdon AI agents, and Floxdon Cloud PaaS." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch((err) => {
+            console.log('SW registration note:', err);
+          });
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

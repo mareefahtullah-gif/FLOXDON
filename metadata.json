@@ -1,0 +1,6 @@
+{
+  "name": "Floxdon Studio",
+  "description": "The complete software ecosystem: Developer Studio for building real native apps, public Floxdon Store for publishing and distribution, Floxdon Account unified authentication, autonomous Floxdon AI agents, and Floxdon Cloud PaaS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
